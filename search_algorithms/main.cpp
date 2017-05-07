@@ -173,7 +173,7 @@ int main(int argc, char **argv) {
      * csv program output
      * algorithm name:search int:queue size:if it was found:time in nano seconds
      */
-    cout << algoIdToStr(algoId) << ":" << searchInt << ":" << size << ":" << elFound << ":" << t2 - t1;
+    cout << algoIdToStr(algoId) << ":" << searchInt << ":" << size << ":" << elFound << ":" << t2 - t1 << endl;
 
     return 0;
 }
